@@ -1,4 +1,4 @@
-# MERN Stack Course at SMIT - Assignments & Projects
+# MERN Stack Course at SMIT - Assignments & Projects.
 
 Welcome to the **MERN Stack Course Repository**! 🚀
 
@@ -147,9 +147,10 @@ Check the Projects/ folder for source code and project details.
 🤝 Contribution Guidelines
 If you'd like to contribute or suggest improvements, feel free to open a pull request or issue. Contributions are welcome!
 
-📧 Contact
+📧 Contact:
 For any questions or collaboration requests, you can reach me at:
 
 Email: [aamirullah.edu.pk@gmail.com]
 LinkedIn: https://www.linkedin.com/in/aamir-ullah-5197372ab/
 GitHub: aamir-io
+
