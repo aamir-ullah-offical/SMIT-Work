@@ -103,7 +103,7 @@ The repository is organized into folders based on the type of work:
 ├── README.md
 🔄 Folder Descriptions
 Classwork/: All in-class tasks and exercises assigned during lectures.
-Homework/: Assignments and homework to be completed after class.
+Homework/: Assignments and homework to be completed after the class.
 Projects/: Larger projects to demonstrate skills learned throughout the course.
 🛠️ Technologies & Tools Used
 Frontend: HTML, CSS, JavaScript, React.js, Bootstrap
