@@ -22,6 +22,7 @@ This repository contains all the **homework**, **classwork**, and **projects** a
 ## 📂 Repository Structure
 The repository is organized into folders based on the type of work:
 
+---
 plaintext
 ├── Classwork/
 │   ├── monday-17-nov-2024
@@ -38,7 +39,7 @@ plaintext
 │   ├── Project2/
 │   └── ...
 ├── README.md
-
+---
 
 
 📌 Course Progress
