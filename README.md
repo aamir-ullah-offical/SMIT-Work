@@ -22,7 +22,7 @@ This repository contains all the **homework**, **classwork**, and **projects** a
 ## 📂 Repository Structure
 The repository is organized into folders based on the type of work:
 
-```plaintext
+plaintext
 ├── Classwork/
 │   ├── monday-17-nov-2024
 │   ├── monday-18-nov-2024
@@ -80,12 +80,11 @@ This repository contains all the **homework**, **classwork**, and **projects** a
   - React.js
   - Node.js
 
----
 
 ## 📂 Repository Structure
 The repository is organized into folders based on the type of work:
 
-```plaintext
+plaintext
 ├── Classwork/
 │   ├── Week1/
 │   ├── Week2/
