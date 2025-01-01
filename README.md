@@ -120,5 +120,3 @@ For any questions or collaboration requests, you can reach me at:
 - **GitHub**: [itz-amir](https://github.com/itz-amir)  
 
 --- 
-
-Let me know if there’s anything else to refine! 😊
