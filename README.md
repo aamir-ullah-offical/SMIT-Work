@@ -36,10 +36,6 @@ This repository contains all the **homework**, **classwork**, and **projects** a
 │   ├── monday-18-nov-2024/
 │   ├── monday-19-nov-2024/
 │   └── ...
-├── Projects/
-│   ├── Project1/
-│   ├── Project2/
-│   └── ...
 ├── README.md
 ```
 
