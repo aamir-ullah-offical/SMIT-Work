@@ -22,23 +22,6 @@ This repository contains all the **homework**, **classwork**, and **projects** a
   - Next.js  
 
 ---
-
-## 📂 Repository Structure  
-
-```plaintext
-├── Classwork/
-│   ├── monday-17-nov-2024/
-│   ├── monday-18-nov-2024/
-│   ├── monday-19-nov-2024/
-│   └── ...
-├── Homework/
-│   ├── monday-17-nov-2024/
-│   ├── monday-18-nov-2024/
-│   ├── monday-19-nov-2024/
-│   └── ...
-├── README.md
-```
-
 ### 🔄 Folder Descriptions  
 - **`Classwork/`**: Contains all in-class tasks and exercises assigned during lectures.  
 - **`Homework/`**: Includes assignments and homework to be completed after the class.  
