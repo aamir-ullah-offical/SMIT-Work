@@ -21,13 +21,6 @@ This repository contains all the **homework**, **classwork**, and **projects** a
   - Node.js  
   - Next.js  
 
----
-### 🔄 Folder Descriptions  
-- **`Classwork/`**: Contains all in-class tasks and exercises assigned during lectures.  
-- **`Homework/`**: Includes assignments and homework to be completed after the class.  
-- **`Projects/`**: Larger projects to demonstrate skills learned throughout the course.  
-
----
 
 ## 🛠️ Technologies & Tools Used  
 - **Frontend**: HTML, CSS, JavaScript, React.js, Bootstrap  
