@@ -77,18 +77,8 @@ This repository contains all the **homework**, **classwork**, and **projects** a
 
 ---
 
-## 🤝 Contribution Guidelines  
-
-If you'd like to contribute or suggest improvements, feel free to open a pull request or issue. Contributions are welcome!  
 
 ---
 
-## 📧 Contact  
-
-For any questions or collaboration requests, you can reach me at:  
-
-- **Email**: [aamirullah.edu.pk@gmail.com](mailto:aamirullah.edu.pk@gmail.com)  
-- **LinkedIn**: [Aamir Ullah](https://www.linkedin.com/in/aamir-ullah-5197372ab/)  
-- **GitHub**: [itz-amir](https://github.com/itz-amir)  
 
 --- 
