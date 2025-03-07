@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations Visualizer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./button.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>Array Operations Visualizer</h1>
+        <div class="array-container" id="arrayContainer">
+        </div>
+        <input type="text" id="arrayInput" class="form-control my-2" placeholder="Enter value">
+        <div class="btn-group">
+            <button class="btn btn-success" onclick="addElement()">Push</button>
+            <button class="btn btn-danger" onclick="removeElement()">Pop</button>
+            <button class="btn btn-primary" onclick="shiftElement()">Shift</button>
+            <button class="btn btn-info" onclick="unshiftElement()">Unshift</button>
+            <button class="btn btn-warning" onclick="clearArray()">Clear</button>
+        </div>
+        <div class="btn-group mt-2">
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#sliceModal">Slice</button>
+            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#spliceModal">Splice</button>
+            <button class="btn btn-light text-dark" onclick="showLength()">Length</button>
+        </div>
+        <h3>Code Execution</h3>
+        <div class="code-display" id="codeDisplay"></div>
+        <h3>Operation Logs</h3>
+        <div class="log-container" id="logContainer"></div>
+
+        <!-- Button to navigate to tasks.html -->
+        <a href="./tasks.html" class="back-btn">Assignment Tasks</a>
+    </div>
+
+    <!-- Slice Modal -->
+    <div class="modal fade" id="sliceModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Slice Array</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="number" id="sliceStart" class="form-control mb-2" placeholder="Start Index">
+                    <input type="number" id="sliceEnd" class="form-control mb-2" placeholder="End Index">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="sliceArray()" data-bs-dismiss="modal">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Splice Modal -->
+    <div class="modal fade" id="spliceModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Splice Array</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="number" id="spliceStart" class="form-control mb-2" placeholder="Start Index">
+                    <input type="number" id="spliceDelete" class="form-control mb-2" placeholder="Delete Count">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="spliceArray()" data-bs-dismiss="modal">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
