@@ -1,6 +1,12 @@
 // JSON data for assignments
 const assignments = [
   {
+    title: "Rento: Rent Management System",
+    description:
+      "A web-based application for managing rent properties, allowing users to browse, rent, and manage properties effectively.",
+    link: "./MiniProjects/RentoWebsite/index.html",
+  },
+  {
     title: "Array Operations Visualizer",
     description: "Understand and visualize array operations.",
     link: "./MiniProjects/ArrayOperationVisualizer/index.html",

@@ -1,0 +1,49 @@
+.team-container {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #0ff;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team-member {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.team-member:hover {
+    border-color: #0ff;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.team-member h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #0ff;
+    margin: 10px 0;
+}
+.team-member p {
+    font-size: 16px;
+    color: #f3ebeb;
+    margin: 5px 0;
+}

@@ -1,0 +1,98 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px 20px;
+    color: #fffdfd;
+}
+
+.footer .main-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .main-section .column {
+    flex: 1;
+    margin: 50px;
+    min-width: 200px;
+}
+
+.footer .main-section .column:nth-child(1) {
+    text-align: center;
+}
+
+.footer .main-section .column:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .main-section .column:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer .main-section .column:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .main-section .column h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #0ff;
+    margin-bottom: 15px;
+}
+
+.footer .main-section .column p,
+.footer .main-section .column a {
+    font-size: 16px;
+    color: #f3ebeb;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer .main-section .column a:hover {
+    color: #0ff;
+    text-decoration: underline;
+}
+
+.footer .main-section .social-icons a {
+    margin: 5px 0;
+    color: #fffdfd;
+    transition: all 0.3s ease;
+}
+
+.footer .main-section .social-icons a:hover {
+    color: #0ff;
+}
+
+.footer .bottom-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.footer .bottom-section p {
+    font-size: 14px;
+    color: #f3ebeb;
+}
+
+.footer .bottom-section a {
+    color: wheat;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer .bottom-section a:hover {
+    color: #0ff;
+    text-decoration: underline;
+}

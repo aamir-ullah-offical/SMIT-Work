@@ -1,0 +1,61 @@
+.galary-container {
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    color: #0ff;
+}
+p {
+    font-size: 16px;
+    color: #f3ebeb;
+    margin: 10px 0 30px;
+}
+.cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.car {
+    margin: 20px;
+    margin-top: 10;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+}
+.car:hover {
+    border-color: #0ff;
+}
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+.car-name {
+    background-color: #ffd700;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #000;
+}
+a {
+    color: wheat;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: #0ff;
+    text-decoration: underline;
+}
+button, .car {
+    transition: all 0.3s ease;
+}
+button:hover, .car:hover {
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
