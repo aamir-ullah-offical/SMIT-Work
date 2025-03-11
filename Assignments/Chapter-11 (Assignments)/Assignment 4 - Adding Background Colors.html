@@ -3,18 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 4</title>
+    <title>Assignment 4 : CSS Background Colors</title>
     <style>
+        /* Global Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Page Background */
         body {
-            background-color: lightyellow;
+            background-color: #f5f5f5; /* Light Gray */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
         }
-        p {
-            background-color: lightblue;
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
         }
+
+        h1 {
+            background-color: #3498db; /* Blue */
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Card Styling */
+        .card {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        /* Background Variations */
+        .solid {
+            background-color: #e74c3c; /* Red */
+        }
+
+        .gradient {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+        }
+
+        .image {
+            background: url('https://source.unsplash.com/400x300/?nature') no-repeat center/cover;
+            height: 150px;
+        }
+
+        /* Hover Effects */
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
     </style>
 </head>
 <body>
-    <h1>Heading with Page Background</h1>
-    <p>This paragraph has a light blue background.</p>
+
+    <div class="container">
+        <h1>CSS Background Colors - Advanced UI</h1>
+
+        <div class="card solid">Solid Color Background</div>
+
+        <div class="card gradient">Gradient Background</div>
+
+        <div class="card image">Image Background</div>
+    </div>
+
 </body>
 </html>
