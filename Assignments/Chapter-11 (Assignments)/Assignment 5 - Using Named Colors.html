@@ -3,22 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 5</title>
+    <title>Assignment 5 : CSS Colors by Names</title>
     <style>
-        h1.red {
-            color: red;
+        /* Full Page Background */
+        body {
+            background-color: lavender; /* Light Purple */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
         }
-        h2.green {
-            color: green;
+
+        /* Card Style for Better UI */
+        .card {
+            width: 80%;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
         }
-        h3.blue {
-            color: blue;
+
+        /* Heading Colors */
+        h1 {
+            color: red; /* Named Color */
+            text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+        }
+        h2 {
+            color: green; /* Named Color */
+            text-shadow: 2px 2px 5px rgba(0, 128, 0, 0.5);
+        }
+        h3 {
+            color: blue; /* Named Color */
+            text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.5);
+        }
+        h4 {
+            color: orange; /* Named Color */
+            text-shadow: 2px 2px 5px rgba(255, 165, 0, 0.5);
+        }
+        h5 {
+            color: purple; /* Named Color */
+            text-shadow: 2px 2px 5px rgba(128, 0, 128, 0.5);
         }
     </style>
 </head>
 <body>
-    <h1 class="red">This is the first heading.</h1>
-    <h2 class="green">This is the second heading.</h2>
-    <h3 class="blue">This is the third heading.</h3>
+
+    <!-- Modern Styled Headings with Colors -->
+    <div class="card">
+        <h1>This is a Red Heading.</h1>
+        <h2>This is a Green Heading.</h2>
+        <h3>This is a Blue Heading.</h3>
+        <h4>This is an Orange Heading.</h4>
+        <h5>This is a Purple Heading.</h5>
+    </div>
+
 </body>
 </html>
